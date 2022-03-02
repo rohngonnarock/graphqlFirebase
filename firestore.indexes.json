@@ -1,0 +1,53 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "fl_content",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "_fl_meta_.env",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "_fl_meta_.locale",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "_fl_meta_.schema",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "fl_content",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "_fl_meta_.env",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "_fl_meta_.locale",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "_fl_meta_.schema",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
